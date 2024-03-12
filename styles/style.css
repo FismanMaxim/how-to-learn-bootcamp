@@ -3,7 +3,6 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f2f2f2;
   font-size: 18px;
   color: #000000;
 }
@@ -19,6 +18,7 @@
 
 .link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .logo {
@@ -42,6 +42,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -91,6 +92,9 @@
 
 .two-columns__paragraph {
   margin: 0 0 30px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .two-columns__brief {
@@ -172,7 +176,9 @@
 
 .feynman {
   min-height: 790px;
+  padding-top: 100px;
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
@@ -256,6 +262,7 @@
   min-height: 350px;
   background-color: #1f1f1f;
   margin: 0;
+  display: flex;
 }
 
 .footer__columns {
@@ -321,4 +328,8 @@
   color: white;
   line-height: 30px;
   font-size: 18px;
+}
+
+.footer__column-link-name {
+  margin: 0;
 }
