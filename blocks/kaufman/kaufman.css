@@ -1,0 +1,9 @@
+.kaufman {
+  margin-top: 0;
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+  min-height: 550px;
+}
